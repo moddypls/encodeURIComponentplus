@@ -15,7 +15,9 @@ function fullURIencode(user_input)
     return encoded;
 }
 
-const unsafe_chars = /[.-|{}()[\]^$?\\+*]/g;
+//lower is frmo here: https://github.com/sindresorhus/escape-string-regexp
+
+const unsafe_chars = /[|\\{}()[\]^$+*?.-]/g;
 
 function rgxCleaner(regex_str)
 {
@@ -23,4 +25,3 @@ function rgxCleaner(regex_str)
 
 	return regex_str.replace(unsafe_chars, "\\$&");
 }
-
