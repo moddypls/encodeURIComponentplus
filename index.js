@@ -15,7 +15,7 @@ function fullURIencode(user_input)
     return encoded;
 }
 
-//lower is frmo here: https://github.com/sindresorhus/escape-string-regexp
+//lower is from here: https://github.com/sindresorhus/escape-string-regexp
 
 const unsafe_chars = /[|\\{}()[\]^$+*?.-]/g;
 
