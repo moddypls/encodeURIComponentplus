@@ -679,7 +679,7 @@ Public License instead of this License.  But first, please read
 
 ----------------------------
  THE SECOND LICENSE FOLLOWS
-
+----------------------------
 
 MIT License
 
