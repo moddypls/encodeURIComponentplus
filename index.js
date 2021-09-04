@@ -1,3 +1,9 @@
+/*
+
+This work is covered by the following license: GPLv3
+
+*/
+
 function fullURIencode(user_input)
 {
     const uri = str => encodeURIComponent(str).replace(/./g,c=>'%'+c.charCodeAt(0).toString(16));
@@ -15,7 +21,7 @@ function fullURIencode(user_input)
     return encoded;
 }
 
-//lower is from here: https://github.com/sindresorhus/escape-string-regexp
+//The following code is a transformed version of a work (found here: https://github.com/sindresorhus/escape-string-regexp), which is using the MIT license.
 
 const unsafe_chars = /[|\\{}()[\]^$+*?.-]/g;
 
