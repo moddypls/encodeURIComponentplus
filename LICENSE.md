@@ -678,7 +678,7 @@ Public License instead of this License.  But first, please read
 
     -
     -
-    - THE SECOND LICENSE FOLLOWS
+THE SECOND LICENSE FOLLOWS
     -
     -
 
